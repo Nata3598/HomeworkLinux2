@@ -1,0 +1,41 @@
+mkdir ~/students/
+mkdir ~/mentors/
+touch ~/students/students_list.txt
+touch ~/mentors/mentors_list.txt
+
+nano ~/students/students_list.txt
+nano ~/mentors/mentors_list.txt
+
+mv ~/mentors/mentors_list.txt ~/students/
+
+rm -r ~/mentors
+
+mv ~/students ~/students_and_mentors
+
+rm -r ~/students_and_mentors
+
+
+
+
+nano file1
+cp file1 file2
+ln -s file1 file3
+ln -P file1 file4
+
+stat file1
+stat file4
+stat file2
+stat file3
+
+rm file1
+
+cat file2
+qwe123
+
+cat file3 
+cat: file3: No such file or directory
+
+cat file4
+qwe123
+
+
